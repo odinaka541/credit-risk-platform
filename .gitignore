@@ -1,0 +1,31 @@
+# Data files
+data/raw/*.csv
+data/processed/*.pkl
+data/features/*.parquet
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Models (can be large)
+models/*.pkl
+models/*.joblib
+
+# Credentials
+.kaggle/
+kaggle.json
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
